@@ -1,18 +1,21 @@
 #tituloPrincipal{
     width: 288px;
     height: 40px;
-    font-family: Arial, Helvetica, sans-serif;
-    text-decoration: underline;
-    color: blue;
-    display: inline;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(0, 0, 0);
+    margin-left: 162px;
 }
 
 .subtitulo
 {
-    width: 370px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
+    width: 465px;
+    height: 15px;
+    margin: 3px;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    color: black;
     background-color: mediumaquamarine;
+    margin-left: 54px
 }
 
 .lista
@@ -20,8 +23,32 @@
     width: 500px;
     border-width: 5px;
     border-style:double;
-    border-color: blue;
-    display: block;
-    position: static;
-    
+    border-color: rgb(0, 255, 98); 
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+
+table.leagueLista 
+{
+    border-collapse: collapse;
+}
+
+table.leagueLista td
+{
+    border: 1px solid rgb(140, 0, 255);
+}
+
+table.leagueLista thead
+{
+    background-color: rgb(0, 255, 98);
+    font-weight: bold;
+}
+
+#titulolol{
+    margin-left: 144px;
+    margin-bottom: 4px;
+}
+
+#imagemlol{
+    margin-left: 101px;
 }
