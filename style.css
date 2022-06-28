@@ -1,21 +1,20 @@
 #tituloPrincipal{
-    width: 288px;
-    height: 40px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: rgb(0, 0, 0);
-    margin-left: 162px;
+    position: relative;
+    left: 518px;
+    margin-bottom: 0px;
 }
 
 .subtitulo
 {
-    width: 465px;
-    height: 15px;
-    margin: 3px;
-    font-family: 'Courier New', Courier, monospace;
-    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-weight: bold;
     color: black;
-    background-color: mediumaquamarine;
-    margin-left: 54px
+    position: relative;
+    left: 475px;
+    margin-top: 0px;
+
 }
 
 *{
@@ -54,4 +53,11 @@ table.leagueLista thead
 
 #imagemlol{
     margin-left: 101px;
+}
+
+#cabeçalho{
+    position: sticky;
+    top: 0%;
+    background-color: mediumaquamarine;
+    
 }
